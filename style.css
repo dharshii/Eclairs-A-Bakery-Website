@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+body{
+    /* overflow-x: hidden; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    position: fixed;
+    top: 515px;
+    left: 1187px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+ul li{
+    width: 120px;
+    height: 35px;
+    float: left;
+    line-height: 35px;    
+    text-align: center;
+    list-style-type: none;
+    /* overflow: hidden; */
+}
+
+ul li a{
+    color: rgb(167, 71, 71);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+ul li ul li{
+    display: none;
+    padding: 0px;
+}
+
+ul li:hover ul li{
+    display: block;
+} 
+
+.bg img{
+    /* background-image: url("bg.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    /* background-size: 100vw;  */
+    width: 100vw;
+
+} 
+nav{
+    position: relative;
+    bottom: 512px;
+    left: 192px;
+}
+.arrowup{
+    width: 0px;
+    height: 0px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(167, 71, 71);
+    position: relative;
+    bottom: 491px;
+    left: 765px;
+}
+
+/*----------------------------- Nav bar ends here -----------------------------*/
+
+p{
+    color: rgba(255, 255, 240, 0.596);
+    position: relative;
+    bottom: 387px;
+    right: 337px;
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+} 
+
+.container{
+    background-color: rgba(240, 240, 240, 0.897);
+    width: 900px;
+    height: 460px;
+    position: relative;
+    bottom: 320px;
+    left: 193px;
+    overflow-y: hidden;
+    border-radius: 3px;
+}
+
+.cards{
+    display: inline-flex;
+}
+
+.card1{
+    position: absolute;
+    left: 60px;
+    top: 14px;
+    border: 5px double grey
+}
+
+.card2{
+    position: absolute;
+    left: 319px;
+    border: 5px double grey;
+}
+
+.card3{
+    position: absolute;
+    left: 580px;
+    border: 5px double grey;
+}
+
+.text-overlay{
+    position: relative;
+    float: left;
+    padding: 55px;
+    font-family: 'Dancing Script', cursive;
+    top: 332px;
+    left: 54px;
+    font-size: -webkit-xxx-large;
+    color: darkgrey;
+}
+
+
+.images img{
+    height: 550px;   
+    width: 350px;
+    outline: 5px double darkgrey;
+    outline-offset: -20px;
+}
+
+.images{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    bottom: 192px;
+}
+
+.want{
+    position: relative;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    bottom: 250px;
+    left: 440px;
+    color: silver;
+}
+.textbox{
+    display: flex;
+}
+
+.box1{
+    position: relative;
+    bottom: 464px;
+    left: 156px;
+    border: 1px solid black;
+    background: white;
+    padding: 7px;
+}
+
+.box2{
+    position: relative;
+    bottom: 464px;
+    left: 480px;
+    border: 1px solid black;
+    background: white;
+    padding: 7px;
+}
+
+.box3{
+    position: relative;
+    bottom: 464px;
+    left: 800px;
+    border: 1px solid black;
+    background: white;
+    padding: 7px;
+}
+
+.first img{
+    width: 300px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    outline: 2px solid white;
+    outline-offset: -15px;
+}
+
+.first-head{
+    position: relative;
+    left: 407px;
+    bottom: 346px;
+    font-size: 30px;
+}
+
+.first-text{
+    position: relative;
+    bottom: 316px;
+    left: 408px;
+    width: 500px;
+}
+
+.second img{
+    width: 300px;
+    position: relative;
+    bottom: 200px;
+    left: 900px;
+    outline: 2px solid white;
+    outline-offset: -15px;
+}
+
+.second-head{
+    position: relative;
+    bottom: 435px;
+    left:331px;
+    font-size: 30px;
+}
+
+.second-text{
+    position: relative;
+    bottom: 405px;
+    left: 331px;
+    width: 500px;
+}
+    
+.book{
+    background-image: url(https://images.pexels.com/photos/2821756/pexels-photo-2821756.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 200px;
+    left: 242px;
+    padding: 15px;
+    border: 2px solid #3d251b;
+    outline: 4px solid #3d251b;
+    outline-offset: 5px;
+}
+
+.book img{
+    border-radius: 50%;
+    width: 400px;
+    border-radius: 50%;
+    margin: 40px 20px 30px 20px;
+    float: left;
+    shape-outside: circle();
+}
+
+#about{
+    font-size: 23px;
+    position: absolute;
+    left: 294px;
+    color: rgb(97, 41, 41);
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 900;
+}
+
+#para{
+    font-size: 18px;
+    color: rgb(97, 41, 41);
+    font-family: 'Oswald', sans-serif;
+}
+
+/*----------------------------- Main ends here -----------------------------*/
+
+footer{
+    background: #333333;
+    color: #fdfff5;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen {
+    
+}
